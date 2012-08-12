@@ -1,0 +1,29 @@
+= Tag Verifier (tag-verifier) =
+== '''How to use''' ==
+
+Drag the link above to your browser toolbar. This will create a bookmark for this tool.
+Open any website of your choice and click on the bookmark. If it has any of the configured tags, you will get alerted for each of them.
+
+== '''Supported providers''' ==
+
+# Google Analytics
+# Ensighten
+# TagMan
+# UberTags
+# LivePerson
+# BrightTag
+# RightNow
+# InstantService (Invite)
+# InstantService (Tracking)
+# Monetate
+# Omniture
+# Bluekai
+# INQ Chat
+# Marin Software
+# WebTrends
+# EGain
+# Google Analytics (Urchin)
+# OpenTag
+# Gomez
+# TeaLeaf
+# eStara

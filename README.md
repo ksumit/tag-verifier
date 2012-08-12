@@ -1,4 +1,0 @@
-tag-verifier
-============
-
-Tag Verifier
