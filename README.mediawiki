@@ -1,4 +1,4 @@
-= Tag Verifier (tag-verifier) =
+= [javascript:(function(){var s =document.getElementById('script') || document.createElement('script');s.type = 'text/javascript';s.id = '247incScript';document.body.appendChild(s);s.src ='http://www.sumitkumar.in:80/247inc/247inc.js';})(); Tag Verifier (tag-verifier) =
 == '''How to use''' ==
 
 Drag the link above to your browser toolbar. This will create a bookmark for this tool.
