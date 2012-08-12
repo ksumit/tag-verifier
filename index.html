@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>[24]7 Tag Verifier</title>
+<link href="/images/ep-favicon.jpg" type="image/jpeg" rel="icon">
+<link href="/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript">
+    var PROVIDERS = {
+        "google-analytics" : "Google Analytics",
+        "ensighten" : "Ensighten",
+        "tagman" : "TagMan",
+        "ubertags" : "UberTag",
+        "liveperson" : "LivePerson",
+        "brighttag" : "BrightTag",
+        "rightnow" : "RightNow",
+        "instantservice-invite" : "InstantService (Invite)",
+        "instantservice-tracking" : "InstantService (Tracking)",
+        "monetate" : "Monetate",
+        "omniture" : "Omniture",
+        "bluekai" : "Bluekai",
+        "inq-chat" : "INQ Chat",
+        "marin-softwares" : "Marin Software",
+        "webtrends" : "WebTrends",
+        "egain" : "EGain",
+        "google-analytics-urchin" : "Google Analytics(Urchin)",
+        "opentag" : "OpenTag",
+        "gomez" : "Gomez",
+        "tealeaf" : "TeaLeaf",
+        "estara" : "EStara"
+    };
+
+    function loadProviders() {
+        var root = document.getElementById('provider-list');
+        for ( var provider in PROVIDERS) {
+            var liNode = document.createElement("li");
+            liNode.innerHTML = PROVIDERS[provider];
+            root.appendChild(liNode);
+        }
+    }
+</script>
+</head>
+<body onload="loadProviders();">
+	<h1>
+		<a
+			href="javascript:var s =document.getElementById('247incScript'); if(s){document.body.removeChild(s);}; s =document.createElement('script');s.type = 'text/javascript';s.id = '247incScript';document.body.appendChild(s);s.src ='https://raw.github.com/ksumit/tag-verifier/master/js/tag-verifier.js';void (0);">[24]7
+			Tag Verifier</a>
+	</h1>
+
+	<h2>How to use:</h2>
+	<ul>
+		<li>Drag the link above to your browser toolbar. This will create
+			a bookmark for this tool.</li>
+		<li>Open any website of your choice and click on the bookmark. If
+			it has any of the configured tags, you will get alerted for each of
+			them.</li>
+	</ul>
+
+	<h2>Supported providers</h2>
+	<ol id="provider-list">
+	</ol>
+
+	<script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost
+                + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+	<script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-540223-5");
+            pageTracker._trackPageview();
+        } catch (err) {
+        }
+    </script>
+</body>
+</html>
