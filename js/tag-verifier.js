@@ -4,6 +4,7 @@
  */
 
 var PROVIDER_PATTERNS = {
+    "247-px-tag" : /\S+\.247ilabs\.com/,
     "google-analytics" : /\.google\-analytics\.com\/ga\.js/,
     "ensighten" : /nexus\.ensighten\.com/,
     "tagman" : /res\.levexis\.com/,
@@ -63,11 +64,13 @@ var tagsFound = 0;
 var tagsFoundMap = {};
 for ( var i = 0; i < allScriptPaths.length; i++) {
     var scriptPath = allScriptPaths[i];
-    for ( var provider in PROVIDER_PATTERNS) {
-        var matched = scriptPath.match(PROVIDER_PATTERNS[provider]);
-        if (matched != null && matched.length > 0 && tagsFoundMap[provider] != true) {
-            tagsFoundMap[provider] = true;
-            tagsFound++;
+    if (scriptPath != "") {
+        for ( var provider in PROVIDER_PATTERNS) {
+            var matched = scriptPath.match(PROVIDER_PATTERNS[provider]);
+            if (matched != null && matched.length > 0 && tagsFoundMap[provider] != true) {
+                tagsFoundMap[provider] = true;
+                tagsFound++;
+            }
         }
     }
 }
