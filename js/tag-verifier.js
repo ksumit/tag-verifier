@@ -25,7 +25,9 @@ var PROVIDER_PATTERNS = {
     "opentag" : /opentag\-(.*)\.js$/,
     "gomez" : /gomez\.js$/,
     "tealeaf" : /TeaLeaf/,
-    "estara" : /\.estara\.com/
+    "estara" : /\.estara\.com/,
+    "rich-relevance" : /\.richrelevance\.com/,
+    "coremetrics" : /\.coremetrics\.com/
 };
 
 function extractDomain(path) {
